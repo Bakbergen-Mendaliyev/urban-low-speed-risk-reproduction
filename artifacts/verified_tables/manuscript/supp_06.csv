@@ -1,0 +1,9 @@
+dataset,fold,train dates,validation dates,train origins,validation origins,Supported nodes
+Chicago,1,267,12,336,1583,1035
+Chicago,2,280,12,336,1719,1035
+Chicago,3,292,12,336,1719,1035
+Chicago,4,304,13,336,1803,1035
+City-M,1,77,7,168,1998,44232
+City-M,2,84,7,168,1998,44311
+City-M,3,91,7,168,1998,44384
+City-M,4,98,7,168,1998,44438

@@ -1,0 +1,11 @@
+numpy==2.5.0
+pandas==3.0.6
+scipy>=1.14,<2
+scikit-learn==1.9.0
+matplotlib==3.11.0
+pyarrow>=18,<25
+PyYAML>=6,<7
+catboost==1.2.8
+joblib>=1.4,<2
+pytest>=8,<10
+ruff>=0.12

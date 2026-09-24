@@ -1,0 +1,626 @@
+[
+  {
+    "source": "reports/v12_2f_r1_information_ablation/audit_code/features.py",
+    "source_sha256": "459a4ac01b451044ba07fd01cdfebbbdcfcfd986822eba1030a24742517dde2d",
+    "functions": [
+      "PrefixProfile"
+    ],
+    "public_path": "src/features/profiles.py",
+    "changes": {},
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "reports/v12_2h_direct_risk/code/prepare.py",
+    "source_sha256": "fa5260d2f4cf493910757fc6275cb90893e79fe8f06aa50b133d056d4fb794b0",
+    "functions": [
+      "design"
+    ],
+    "public_path": "src/features/chicago.py",
+    "changes": {
+      "def design(": "def design("
+    },
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "reports/v12_3a_risk_prioritization/code/city.py",
+    "source_sha256": "b2f9d9b97474dcab8799a6b0dd4f79955a60df5d92409d2ca45771ccde8fcf79",
+    "functions": [
+      "profile_query",
+      "design"
+    ],
+    "public_path": "src/features/city.py",
+    "changes": {},
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "reports/v12_2h_direct_risk/code/metrics.py",
+    "source_sha256": "72279d16a6649ea47f3bdb8ec1da50c8d2f0ea3be204d488384c4fc3e9c16855",
+    "functions": [
+      "divide",
+      "metrics",
+      "curve",
+      "select",
+      "calibration_metrics"
+    ],
+    "public_path": "src/evaluation/discrimination.py",
+    "changes": {},
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "reports/v12_3a_risk_prioritization/code/common.py",
+    "source_sha256": "54b058e9c4b13da028f4501af70274c6a3b6ccef03ab629499e538331a621965",
+    "functions": [
+      "budget_count",
+      "rank_rows",
+      "summaries"
+    ],
+    "public_path": "src/evaluation/ranking.py",
+    "changes": {},
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "reports/v12_2i_external_temporal_transportability/code/common.py",
+    "source_sha256": "27606d94fc45f54a4fb3080b09ce3fc846ce681a8170c5357c16a65cf9ed6b39",
+    "functions": [
+      "basic",
+      "transitions"
+    ],
+    "public_path": "src/evaluation/operating.py",
+    "changes": {},
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "reports/v12_3a_risk_prioritization/code/city_metrics.py",
+    "source_sha256": "45dc0c967f35b2c043362768d8cb1483fbbf34671158461f31a7791a04ec0ceb",
+    "functions": [
+      "grid_counts"
+    ],
+    "public_path": "src/evaluation/grid.py",
+    "changes": {},
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "reports/v12_2h_direct_risk/code/common.py",
+    "source_sha256": "07186eb7d3d3c93af7cf986cb42e97e48c8c92c46b2e4f71a3652494517030c1",
+    "functions": [
+      "config",
+      "expert_columns"
+    ],
+    "public_path": "src/models/parameters.py",
+    "changes": {},
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "reports/v12_2f_r1_information_ablation/audit_code/models.py",
+    "source_sha256": "c95e0e5c70c3d76c26813b0f1a0e928a197ce65cf2cd293409acad64bf590ace",
+    "functions": [
+      "MultiTask",
+      "auxiliary_loss"
+    ],
+    "public_path": "src/models/multitask.py",
+    "changes": {},
+    "scope": "Function bodies retained; imports and path adapters separated."
+  },
+  {
+    "source": "artifacts/tables/v12_2h_direct_risk/V12_2H_PR_AUC_COMPARISON.csv",
+    "source_sha256": "f7ae93b13979a712a3b5ca0e4dd38d66f4f2e6915b34cc67258dee2e008d3586",
+    "public_path": "artifacts/verified_tables/historical_discrimination.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_2i_external_temporal_transportability/V12_2I_EXTERNAL_METRICS.csv",
+    "source_sha256": "6d8a3401fb12eaf0f89ff23b6f3f1192dd4fdd0ac2817a6a8f38431eb202d7ac",
+    "public_path": "artifacts/verified_tables/chicago_external.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_2i_external_temporal_transportability/V12_2I_EXTERNAL_BOOTSTRAP.csv",
+    "source_sha256": "f001948cabd9e247df298621b37baa9e83aea8c940df1eae0873c14d475e3983",
+    "public_path": "artifacts/verified_tables/chicago_bootstrap.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_2i_external_temporal_transportability/V12_2I_EXTERNAL_TRANSITIONS.csv",
+    "source_sha256": "7506d93b963d18c9df5b9d3cbe41009ac909358c2e79a76bd900d69e5ac4b4a7",
+    "public_path": "artifacts/verified_tables/chicago_transitions.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_3a_risk_prioritization/V12_3A_CHICAGO_BUDGET_RESULTS.csv",
+    "source_sha256": "01460472615f6a6a116c67220233dd9f842b0cb101d269fd31d02ebedf177dd7",
+    "public_path": "artifacts/verified_tables/chicago_ranking.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_3a_risk_prioritization/V12_3A_CHICAGO_PAIRED_DAY_INTERVALS.csv",
+    "source_sha256": "7565fda1f3212a79871b653901847586561453df08c1dbba1acbdc98a33cd794",
+    "public_path": "artifacts/verified_tables/chicago_paired_intervals.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_3a_risk_prioritization/CHICAGO_2026_TOP_PRIORITY_ROADS.csv",
+    "source_sha256": "27793c16ac6ddcbe9b407445009f37bb70a35cef3b47c2ec43a01ff5bd751f9e",
+    "public_path": "artifacts/verified_tables/chicago_priority_roads.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_3a_risk_prioritization/CHICAGO_2026_ACTUAL_LOW_SPEED_BURDEN.csv",
+    "source_sha256": "82c4f68c6ee8f5b410090a096d5c991bdf4e2a889f2f4d33c53e58716edba548",
+    "public_path": "artifacts/verified_tables/chicago_burden.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_3a_risk_prioritization/V12_3A_CITYM_EQUAL_FOLD_SUMMARY.csv",
+    "source_sha256": "208215699ae3a099dd60fe704efd04f98e50a78132e668a66e3e0549fe1b643d",
+    "public_path": "artifacts/verified_tables/city_summary.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_3a_risk_prioritization/V12_3A_CITYM_DIRECT_RISK_RESULTS.csv",
+    "source_sha256": "e9b742f0cc5e829d8c75d6d0613750e1c59192a94aca17d898759e3006d64b8b",
+    "public_path": "artifacts/verified_tables/city_fold_results.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_3a_risk_prioritization/V12_3A_CITYM_OPERATING_POINTS.csv",
+    "source_sha256": "5d1706f19ef47e028354ba58ddc2a317cd40323ee0d2a7a7e1b0970a20814552",
+    "public_path": "artifacts/verified_tables/city_operating_points.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/tables/v12_2h_direct_risk/V12_2H_OPERATING_POINTS.csv",
+    "source_sha256": "32f1c6059d48a6289244b241326d0f98b471188a806e92ca11d614f3d870faea",
+    "public_path": "artifacts/verified_tables/historical_operating_points.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/city.csv",
+    "source_sha256": "1c0b763fefb302b087b984b80779fd91b2f1be2e7f2db8a70412e06e000a23a0",
+    "public_path": "artifacts/verified_tables/manuscript/city.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/design.csv",
+    "source_sha256": "041f4a5bae4db48abf7f3f7cdd3ab5cc54abf3bdd985e76defed5fe4a9d10d44",
+    "public_path": "artifacts/verified_tables/manuscript/design.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/external.csv",
+    "source_sha256": "d706619dad7dfd04cff46ae8f7dede072ac194cf294f2a32ba83f40e905ee3bd",
+    "public_path": "artifacts/verified_tables/manuscript/external.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/features.csv",
+    "source_sha256": "db5d45de5fc23b85ead672483b93ee9979dd93debbc526100528fa02d0a2608d",
+    "public_path": "artifacts/verified_tables/manuscript/features.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/ranking.csv",
+    "source_sha256": "46e2fa4ad01cc27a87bfcd2e714f134a4685d06bfb71aa7ad56947347ae73c48",
+    "public_path": "artifacts/verified_tables/manuscript/ranking.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/segment_priority.csv",
+    "source_sha256": "2e600e2d4ac50c96f82d1adaadd9a5ccdfa11bf924f1d65cb750c5d0d7910034",
+    "public_path": "artifacts/verified_tables/manuscript/segment_priority.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/speed.csv",
+    "source_sha256": "78d7345cb2602e754d94c1bce5a94f363ccebc76c443973c3296c6536cabdb76",
+    "public_path": "artifacts/verified_tables/manuscript/speed.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_01.csv",
+    "source_sha256": "1571d9d75f194519ba1c83f3b32f780e2d5bd2008444b29febc9c073baacb899",
+    "public_path": "artifacts/verified_tables/manuscript/supp_01.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_02.csv",
+    "source_sha256": "aaad19cf49784b983f8baa1eb5e9a460e7686ebfcc25e600ad93df6b0ea32844",
+    "public_path": "artifacts/verified_tables/manuscript/supp_02.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_03.csv",
+    "source_sha256": "b8e6150539dc042bc9f10775f855320f605fdcc0048955689fe2987ac2054a65",
+    "public_path": "artifacts/verified_tables/manuscript/supp_03.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_04.csv",
+    "source_sha256": "8b439d01f0abc3dc12c44200fe79361000792955fcd951fb5c3e8c1985a8dc3c",
+    "public_path": "artifacts/verified_tables/manuscript/supp_04.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_05.csv",
+    "source_sha256": "cf6c4069706a6344c40734fc493b0a63db53c07980b7003fee62152241e5d237",
+    "public_path": "artifacts/verified_tables/manuscript/supp_05.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_06.csv",
+    "source_sha256": "b7cd5df4f2e4dbf3dca92e64b13c6f071c463e5651b078bcd8539436f2897911",
+    "public_path": "artifacts/verified_tables/manuscript/supp_06.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_07.csv",
+    "source_sha256": "98ba882de44885dd544c29f9bc3b354fe10428defe7da3858ccd771fd34717ac",
+    "public_path": "artifacts/verified_tables/manuscript/supp_07.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_08.csv",
+    "source_sha256": "4df9033c9dc1ce9f65365c780405883e8237c7ecdf1ecbe01b2b1a18e8718ec6",
+    "public_path": "artifacts/verified_tables/manuscript/supp_08.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_09.csv",
+    "source_sha256": "5ca629772ddb7b07f1b3c7c3b4a3bc9c2df1688ffc82adb4469b0100d19357ad",
+    "public_path": "artifacts/verified_tables/manuscript/supp_09.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_10.csv",
+    "source_sha256": "38252bbbf8a81fd6336dc4879685d798d0789ab9e1bc489aec0ae12c3515e23c",
+    "public_path": "artifacts/verified_tables/manuscript/supp_10.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_11.csv",
+    "source_sha256": "877953ccc737ea5f0f69b8a76308dc5302ac6b6327debdbcac9e11f937673866",
+    "public_path": "artifacts/verified_tables/manuscript/supp_11.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_12.csv",
+    "source_sha256": "ed649c50cf95079253b4f30e6f94d52b15d289d3784b0c7680cb0d3a7f7a19cf",
+    "public_path": "artifacts/verified_tables/manuscript/supp_12.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_13.csv",
+    "source_sha256": "1dcc241ac10d1761f0d9e250bf41eceec5f8f0d728a2e21cdea44e44fcba1d04",
+    "public_path": "artifacts/verified_tables/manuscript/supp_13.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_14.csv",
+    "source_sha256": "aa6e3f283d2cb93f1e9eeb256407a00f2f43855400ca39caec567599bf6074e8",
+    "public_path": "artifacts/verified_tables/manuscript/supp_14.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_15.csv",
+    "source_sha256": "6617a46e23e45aa8d6909c05d762077868f41275514b08641b67e3c4dd2db874",
+    "public_path": "artifacts/verified_tables/manuscript/supp_15.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_16.csv",
+    "source_sha256": "6df0ab5252fc228d1dbede52094dab3f9b93fead89daf19d64d08f7e6ec80bbf",
+    "public_path": "artifacts/verified_tables/manuscript/supp_16.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_17.csv",
+    "source_sha256": "1b313e0fc64eae2385b596712d8e51093fe803f9e1d56969d8f0cf4e2344e541",
+    "public_path": "artifacts/verified_tables/manuscript/supp_17.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_18.csv",
+    "source_sha256": "7a681e18224b189c569e4a28b50c9cf259095b6d1212d53f94c354a30beb591f",
+    "public_path": "artifacts/verified_tables/manuscript/supp_18.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_19.csv",
+    "source_sha256": "8f7d6054ca2a2013a2514f06c1db4ed77e070c7339153dd44f8d6a2c2658f17a",
+    "public_path": "artifacts/verified_tables/manuscript/supp_19.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_20.csv",
+    "source_sha256": "30d99567e2c7757ef82418832b4e19a99405bb990f6aa8d02e0f51322c605328",
+    "public_path": "artifacts/verified_tables/manuscript/supp_20.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_21.csv",
+    "source_sha256": "0a68c3d678a52ffc3183df959a0a6853b1721c7aa5f08fd665d7ae72cfa2637a",
+    "public_path": "artifacts/verified_tables/manuscript/supp_21.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_22.csv",
+    "source_sha256": "876f0e9d18684ee9b4d957eff3864ccfa9130afc7a9a9d68c57d6482bf74a3d9",
+    "public_path": "artifacts/verified_tables/manuscript/supp_22.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_23.csv",
+    "source_sha256": "3415fa31e2dff416008ced67e0903102c3a6ce34ce7b40cefaf7fb64eb982df6",
+    "public_path": "artifacts/verified_tables/manuscript/supp_23.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_24.csv",
+    "source_sha256": "dc0f29fb370f9c2010cc3d9eec34d3b4493e318c0f6b087753abeddabfa6472c",
+    "public_path": "artifacts/verified_tables/manuscript/supp_24.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_25.csv",
+    "source_sha256": "defd3d26715cb901f318caf137d161c3eeed93e14c1a83c2a4d4096c7b0cbfaa",
+    "public_path": "artifacts/verified_tables/manuscript/supp_25.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_26.csv",
+    "source_sha256": "ac7841fcd03acf89e4bbb2e438900d5dd8bf3bf17ee7ab7cb67a957c90c253ae",
+    "public_path": "artifacts/verified_tables/manuscript/supp_26.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_27.csv",
+    "source_sha256": "da8a474b38efe02a281c24ae4638d13257122b6f970dae7979c02293d6969380",
+    "public_path": "artifacts/verified_tables/manuscript/supp_27.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_28.csv",
+    "source_sha256": "86533ebefd612e523f8ae3bea91ef4c85319bdc39e6ff49cd915499a07e602b9",
+    "public_path": "artifacts/verified_tables/manuscript/supp_28.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_29.csv",
+    "source_sha256": "3e8a8cd948b7a41dd263b562771f1ca71f1f0f4e0f7a1ae253f378e8e2072bc0",
+    "public_path": "artifacts/verified_tables/manuscript/supp_29.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_30.csv",
+    "source_sha256": "74a797e3dbca00a0d8da1f928d9b1c1ec4064b5bb164ffa7e2617cd654fd7915",
+    "public_path": "artifacts/verified_tables/manuscript/supp_30.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/tables/supp_31.csv",
+    "source_sha256": "342f39d6b4894507278f6aa113da92f300f99778fee23c320aa84acffbe9a4ba",
+    "public_path": "artifacts/verified_tables/manuscript/supp_31.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F3_emergence.csv",
+    "source_sha256": "8564b5a08635fab953085113709dbb5a2fbd2dcb38b323940689057f570469f5",
+    "public_path": "artifacts/verified_tables/figure_sources/f3_emergence.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F3_speed.csv",
+    "source_sha256": "cb887324d066fa8dcd46d1147abf2c60ab17f8337280f1076b32e31232de8972",
+    "public_path": "artifacts/verified_tables/figure_sources/f3_speed.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F3_states.csv",
+    "source_sha256": "30e8b28cb38a48546642bf16adfb59822f1c90ef5d61ac7b2206aa1f8e49431d",
+    "public_path": "artifacts/verified_tables/figure_sources/f3_states.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F4_ablation.csv",
+    "source_sha256": "7fa55526fc347a2ec0fa5e6a18fc4fd97a6a7d1febe019fdde8eab5ad1f71161",
+    "public_path": "artifacts/verified_tables/figure_sources/f4_ablation.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F4_direct.csv",
+    "source_sha256": "c416de58e6997b3c2a1e6a9e479b5e0799b6ee2d986f954f7cb8cfcc06e084c1",
+    "public_path": "artifacts/verified_tables/figure_sources/f4_direct.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F4_graph.csv",
+    "source_sha256": "5446fbd528e17c5616335b090cec7f837426defcf9a3e7e3aa6e653bd10ac42a",
+    "public_path": "artifacts/verified_tables/figure_sources/f4_graph.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F4_multitask.csv",
+    "source_sha256": "3624873c45a90710bb472b095a2ccab216357d2981b4f14bca2483c0c5a69d7c",
+    "public_path": "artifacts/verified_tables/figure_sources/f4_multitask.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F6_external.csv",
+    "source_sha256": "6273cb72c0adf00707b808883e7e2cded32975f45f2d3b03fdd3bad614aafe5b",
+    "public_path": "artifacts/verified_tables/figure_sources/f6_external.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F6_fixed_references.csv",
+    "source_sha256": "489d181d59d94bb553ecc30e0f17b37e259d01f9fe0a67fedbebbde138703acb",
+    "public_path": "artifacts/verified_tables/figure_sources/f6_fixed_references.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F6_intervals.csv",
+    "source_sha256": "11e2894ed083d8fa4ca88b17ce17f15c2a57dfcfdab61441988b35b0ff918797",
+    "public_path": "artifacts/verified_tables/figure_sources/f6_intervals.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F6_retention.csv",
+    "source_sha256": "a654484b69f615d88a36bb15423a45beb624ae056df4836e4f9a08118d4d6a72",
+    "public_path": "artifacts/verified_tables/figure_sources/f6_retention.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F7_matched_budgets.csv",
+    "source_sha256": "ec408b5ea8aa590c3f44a54ec29595184281dac0dc0467c6a377b95d12ebefab",
+    "public_path": "artifacts/verified_tables/figure_sources/f7_matched_budgets.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F7_paired_gains.csv",
+    "source_sha256": "879c41cf0541d4a1e80df48ca2824dcb50535f38bf090e6fc91ca588f5a493db",
+    "public_path": "artifacts/verified_tables/figure_sources/f7_paired_gains.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F8_chicago_transitions.csv",
+    "source_sha256": "5342b096b32816cb31a4a2153b627ccaee4e349b4da6aefb35fe3490f03a1bff",
+    "public_path": "artifacts/verified_tables/figure_sources/f8_chicago_transitions.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F8_city_transitions.csv",
+    "source_sha256": "645995d8389c490831bc2c8debea5bc4c946cd82e015b2bb365c6ae6e6c78941",
+    "public_path": "artifacts/verified_tables/figure_sources/f8_city_transitions.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/F9_city_folds.csv",
+    "source_sha256": "bddfb4bae0a4bda21ca669e47ce3d26c7318e60685e6727e0f377a4ec1e30a6c",
+    "public_path": "artifacts/verified_tables/figure_sources/f9_city_folds.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/PRIMARY_DISCRIMINATION.csv",
+    "source_sha256": "b3d7191b58a75b07e27422375ef42c61a2bda561d15d7c28523d3e80f95ad983",
+    "public_path": "artifacts/verified_tables/figure_sources/primary_discrimination.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/SEGMENT_PRIORITY_SELECTED.csv",
+    "source_sha256": "eb49c61475893910073061c4eb24495ae7721b31abd580fb34058baa44713ae1",
+    "public_path": "artifacts/verified_tables/figure_sources/segment_priority_selected.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/STORY_CORE_DISCRIMINATION.csv",
+    "source_sha256": "db33a97715fd3aa6304d313a67ec669ad57e7aa4a64036927cb1b1068c723fa4",
+    "public_path": "artifacts/verified_tables/figure_sources/story_core_discrimination.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/STORY_PREDICTION_CASES.csv",
+    "source_sha256": "fc21e597ba1ba9e5fffd5b84a1e35895be31313593426bf4846cd5cd97954f87",
+    "public_path": "artifacts/verified_tables/figure_sources/story_prediction_cases.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "reports/v12_3b_final_manuscript_reconstruction/figure_data/STORY_TARGET_OBSERVATIONS.csv",
+    "source_sha256": "e96424af424a1148810418bf7bbfbba99b86a41f576de2cbde355e0d932ecf46",
+    "public_path": "artifacts/verified_tables/figure_sources/story_target_observations.csv",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2h_direct_risk/fold1/reference.npz",
+    "source_sha256": "55cc6e513ecdbbf92ec9e473026a9fa9e3e8eac9deb915d6c0a9abffdb6b9327",
+    "public_path": "data/checksums/chicago_fold1_reference.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2f_r1_information_ablation/CHICAGO_fold1/origins.npz",
+    "source_sha256": "6fe21f75d9bad37deeb46a06c8502ebb916de069489f1432a73d53ff4647f115",
+    "public_path": "data/checksums/chicago_fold1_origins.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_3a_risk_prioritization/city_fold1/reference.npz",
+    "source_sha256": "ae22a5ce30847e0d7f39b00be3d08fb28966120728461261b2e06f3573b785e8",
+    "public_path": "data/checksums/city_m_fold1_reference.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2f_r1_information_ablation/CITY_M_fold1/origins.npz",
+    "source_sha256": "8705c6e7b3d4e9b6f98fea037697b9a3dbe0dc607a8b628a7ff8272553391979",
+    "public_path": "data/checksums/city_m_fold1_origins.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2h_direct_risk/fold2/reference.npz",
+    "source_sha256": "97ae5890ea81d42b648685ec68efa4257f470140909f0d71bbf80965cd1d11ae",
+    "public_path": "data/checksums/chicago_fold2_reference.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2f_r1_information_ablation/CHICAGO_fold2/origins.npz",
+    "source_sha256": "08fcb6753532d8df559f0e8a1f5f449fa2923bc2ff079d6341bbb391cff438be",
+    "public_path": "data/checksums/chicago_fold2_origins.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_3a_risk_prioritization/city_fold2/reference.npz",
+    "source_sha256": "ee538717f7f207e250e592c5bae09be9377ea4c79cd03f7114afd7931a55de23",
+    "public_path": "data/checksums/city_m_fold2_reference.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2f_r1_information_ablation/CITY_M_fold2/origins.npz",
+    "source_sha256": "786f48dbcd85fb826e852e5d00052bc447de5067c53f740ae20f6a30f451ac19",
+    "public_path": "data/checksums/city_m_fold2_origins.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2h_direct_risk/fold3/reference.npz",
+    "source_sha256": "44a249552128f685bdc66a9469eb380fba8166fea33064c3cbbdf4379eadf856",
+    "public_path": "data/checksums/chicago_fold3_reference.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2f_r1_information_ablation/CHICAGO_fold3/origins.npz",
+    "source_sha256": "dfea320ba2bb3a818ce7301644615c2f0aa38ae7f077337fb8c3855a946f33a0",
+    "public_path": "data/checksums/chicago_fold3_origins.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_3a_risk_prioritization/city_fold3/reference.npz",
+    "source_sha256": "48173019b7f92f6b7772319eca89534ad5b364a833d0684971647e2a1d75f3d6",
+    "public_path": "data/checksums/city_m_fold3_reference.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2f_r1_information_ablation/CITY_M_fold3/origins.npz",
+    "source_sha256": "61da3f0bf986f0dddbebe7d12568373232695165fc24d1306ff2eeb23451f936",
+    "public_path": "data/checksums/city_m_fold3_origins.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2h_direct_risk/fold4/reference.npz",
+    "source_sha256": "a5ada20ee35b5638a3db1611618fdeaa4d2602082c0cc7d5f8d455e6879c5e81",
+    "public_path": "data/checksums/chicago_fold4_reference.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2f_r1_information_ablation/CHICAGO_fold4/origins.npz",
+    "source_sha256": "a7b58ecd2816328a6d5cd3bf5f8df14adf3ad1c04cc6b22a6d90d14aab05ba1c",
+    "public_path": "data/checksums/chicago_fold4_origins.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_3a_risk_prioritization/city_fold4/reference.npz",
+    "source_sha256": "d68a974445d4d2edb7612a79a0f709d2d7b42b36c9393e07c3be862720d4c90a",
+    "public_path": "data/checksums/city_m_fold4_reference.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "artifacts/v12_2f_r1_information_ablation/CITY_M_fold4/origins.npz",
+    "source_sha256": "7f4aa5f9a54c3d821f4c10fe2594f2bfb0c3d9ef0d4ace96f53e0d7742408e61",
+    "public_path": "data/checksums/city_m_fold4_origins.npz",
+    "byte_identical": true
+  }
+]

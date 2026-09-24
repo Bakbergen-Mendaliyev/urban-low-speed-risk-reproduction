@@ -1,0 +1,8 @@
+Property,Chicago,City-M
+Source road identities,"1,047","53,530"
+Cadence / unit,10 min / mph,5 min / km/h
+Supported controlled-fold roads,"1,035 each fold","44,232 / 44,311 / 44,384 / 44,438"
+Development validation,"May-July 2023, 4 blocks","Sep-Oct 2024, 4 blocks"
+Later temporal evaluation,"Jan-Mar 2026, frozen replay",None in this study
+Named roads / civil clock,Available / America-Chicago,Anonymous / not established
+Evidence role,Retrospective transportability,Retrospective formulation replication

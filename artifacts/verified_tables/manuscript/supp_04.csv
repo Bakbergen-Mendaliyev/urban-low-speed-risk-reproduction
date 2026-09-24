@@ -1,0 +1,5 @@
+dataset,transformation,input rows,input nodes,output rows,output nodes,rule,reason
+Chicago,raw to canonical,47932707,1047,47926425,1047,floor local timestamp; join lookup localized with ambiguous/nonexistent=NaT; exclude 6282 fall-DST rows; -1 to missing; preserve zero,Canonical unambiguous UTC alignment; no raw data edit
+Chicago,canonical to historical cohort input,47926425,1047,47484800,1045,Existing historical training cohort and grid date range,"Inherited project cohort, not a new EDA selection"
+Chicago,historical input to ceil-grid,47484800,1045,52995,1045,Ceil nominal UTC; latest nominal per road/bin; 6923 collision records; missing grid cells NaN,"Output row is a time axis row, unlike input long-format row"
+City-M,released Parquet to existing speed cache,35449,53530,35449,53530,float64 to float32; identical timestamp order and node_i suffix mapping; preserve null mask,Memory-efficient unchanged source representation

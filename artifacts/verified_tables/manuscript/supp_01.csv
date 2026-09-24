@@ -1,0 +1,23 @@
+field name,dtype,unit,official semantics
+time,string,naive source local date/time,Official field label only; detailed interpretation and remaining ambiguity are stated in empirical_observation.
+segment_id,string,identifier,Unique arbitrary number to represent each segment.
+speed,string,mph,Estimated traffic speed in miles per hour. A value of -1 means no estimate is available.
+street,string,name,Street name of the traffic segment.
+direction,string,code,Traffic flow direction for the segment.
+from_street,string,name,Start street for the segment in the direction of traffic flow.
+to_street,string,name,End street for the segment in the direction of traffic flow.
+length,string,miles,Length of the segment in miles.
+street_heading,string,direction code,"The position of the segment in the address grid. North, South, East, or West of State and Madison. "
+bus_count,string,buses,Number of buses providing a GPS feed used to estimate congestion.
+message_count,string,GPS messages,Number of GPS probes received(or used) for estimating the speed for that segment.
+hour,string,hour,Hour of the day.
+day_of_week,string,source calendar code,Day of the week. Sunday = 1
+month,string,month number,Month of the year.
+record_id,string,identifier,A unique identifier for each record in the dataset.
+start_latitude,string,degrees,Latitude of the start of the segment.
+start_longitude,string,degrees,Longitude of the start of the segment.
+end_latitude,string,degrees,Latitude of the end of the segment.
+end_longitude,string,degrees,Longitude of the end of the segment.
+start_location,"struct<coordinates: list<element: double>, type: string>",source longitude/latitude degrees,Location of the start of the segment.
+end_location,"struct<coordinates: list<element: double>, type: string>",source longitude/latitude degrees,Location of the end of the segment.
+comments,string,text,Official field label only; detailed interpretation and remaining ambiguity are stated in empirical_observation.

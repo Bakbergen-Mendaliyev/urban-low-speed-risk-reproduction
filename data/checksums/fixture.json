@@ -1,0 +1,5 @@
+{
+  "description": "First chronological validation origin of Chicago fold 1, all supported segments; processed 145-slot input and saved 328-feature output. No model scores, training or performance estimate.",
+  "file": "artifacts/verified_tables/feature_fixture.npz",
+  "sha256": "5c6ed61f989b930ccc8e0570a9d5b239b8a63c491417d8732e6f80349e6b2b8d"
+}

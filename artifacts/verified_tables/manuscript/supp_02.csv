@@ -1,0 +1,27 @@
+field name,dtype,unit,official meaning
+category,float64,code or count,Functional road-category code; publisher examples do not provide a numeric-to-name lookup.
+edge_type,float64,code or count,Road connection-type code; category legend not released here.
+speed_mode,float64,code or count,Speed-regulation pattern code; detailed code legend not released here.
+speed_limit,float64,code or count,"Ordinal posted-limit code: 0 missing; 1=5,2=20,3=30,4=40,5=50,6=60,7=70,8=80,9=90,10=100,11=110 km/h."
+region_id,float64,code or count,Anonymized administrative region identifier.
+can_bind_to_reverse_edge,bool,boolean,Whether attachment to a reverse-direction road is permitted.
+dismount_bike,bool,boolean,Dismount restriction flag.
+has_masstransit_lane,bool,boolean,Public-transport lane flag.
+ends_with_crosswalk,bool,boolean,Crosswalk-at-end flag.
+ends_with_toll_post,bool,boolean,Toll-post-at-end flag.
+is_in_poor_condition,bool,boolean,Surface-condition flag.
+is_paved,bool,boolean,Paved-surface flag.
+is_restricted_for_trucks,bool,boolean,Truck-restriction flag.
+is_toll,bool,boolean,Toll-road flag.
+access_0,bool,boolean,Access permission for publisher-undisclosed transport-mode code 0.
+access_1,bool,boolean,Access permission for publisher-undisclosed transport-mode code 1.
+access_2,bool,boolean,Access permission for publisher-undisclosed transport-mode code 2.
+access_3,bool,boolean,Access permission for publisher-undisclosed transport-mode code 3.
+access_4,bool,boolean,Access permission for publisher-undisclosed transport-mode code 4.
+access_5,bool,boolean,Access permission for publisher-undisclosed transport-mode code 5.
+length,float64,metres,Road-segment length in metres.
+num_segments,float64,code or count,Count of constituent subsegments.
+x_coordinate_start,float64,source coordinate,"Source latitude component according to Appendix A; released anonymized coordinate space, not independently geolocated."
+y_coordinate_start,float64,source coordinate,"Source longitude component according to Appendix A; released anonymized coordinate space, not independently geolocated."
+x_coordinate_end,float64,source coordinate,"Source latitude component according to Appendix A; released anonymized coordinate space, not independently geolocated."
+y_coordinate_end,float64,source coordinate,"Source longitude component according to Appendix A; released anonymized coordinate space, not independently geolocated."

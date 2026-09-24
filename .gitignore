@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.env
+.env.*
+data/raw/
+data/processed/
+artifacts/reproduced/
+*.log

@@ -1,0 +1,16 @@
+array or table,shape,dtype,unit,missing encoding,description
+released Parquet table,"[121236, 2]",int64,zero-based node ID,column-specific nulls,source -> target permitted directed adjacency
+released Parquet table,"[35449, 53531]",double;timestamp[ms],km/h,Parquet null -> IEEE NaN,"Wide source table, not a project-derived array"
+released Parquet table,"[53530, 26]",bool;double,mixed: see dictionary,column-specific nulls,Implicit row i is node_i; no street names
+derived NumPy,[53530],bool,boolean,not applicable,Legacy externally conditioned eligibility; NOT used in the dataset audit.
+derived NumPy,"[35449, 53530]",uint16,5-minute steps/count,not applicable,Derived number of observed speeds in the last 288 five-minute steps including current time; shorter prefix at release start. Not an original source measurement.
+derived NumPy,"[35449, 53530]",uint16,5-minute steps/count,not applicable,Derived observation age capped at 288 five-minute steps (24h); 288 also covers no previous observation. Zero when currently observed. Not publication latency.
+derived NumPy,"[35449, 53530]",float32,km/h,,Released speed matrix converted float64 to float32; no imputation.
+derived NumPy,[35449],int64,ns,not applicable,"Released timestamp index converted to int64 nanoseconds, same order."
+derived NumPy,"[24, 53530]",float32,km/h,not applicable,"Derived per-node, hour-of-day speed expectation estimated from historical training values, shape [24,node]. Not a raw attribute."
+derived named NPZ array,[53530],float64,km/h,,Exact all-hours training per-road 85th percentile.
+derived named NPZ array,[53530],float64,km/h,,"Unused off-peak reference slot; City-M local civil clock is not established, so this array is entirely missing."
+derived named NPZ array,[53530],bool,boolean,False means not supported,Positive finite q85 and at least 100 observations on 20 training dates.
+derived named NPZ array,[53530],bool,boolean,False means not supported,Unused off-peak support slot; false for every City-M node.
+derived named NPZ array,[53530],float64,km/h,,All-observed training per-node mean speed.
+derived named NPZ array,"[24, 53530]",float64,km/h,,Per-node released-phase hour training mean; missing hour falls back to training node mean.

@@ -1,0 +1,137 @@
+{
+  "seed": 20260909,
+  "bootstrap_seed": 20260922,
+  "horizons": [
+    10,
+    30,
+    60
+  ],
+  "primary_horizons": [
+    30,
+    60
+  ],
+  "thresholds": [
+    0.7,
+    0.6
+  ],
+  "primary_threshold": 0.7,
+  "target_guard_minutes": 90,
+  "reference": {
+    "quantile": 0.85,
+    "method": "linear",
+    "minimum_observations": 100,
+    "minimum_dates": 20
+  },
+  "folds": [
+    {
+      "dataset": "Chicago",
+      "fold": 1,
+      "train_start": 1662385200000000000,
+      "train_end": 1685364000000000000,
+      "validation_start": 1685590800000000000,
+      "validation_end": 1686546000000000000
+    },
+    {
+      "dataset": "Chicago",
+      "fold": 2,
+      "train_start": 1662385200000000000,
+      "train_end": 1686546000000000000,
+      "validation_start": 1686546000000000000,
+      "validation_end": 1687582800000000000
+    },
+    {
+      "dataset": "Chicago",
+      "fold": 3,
+      "train_start": 1662385200000000000,
+      "train_end": 1687582800000000000,
+      "validation_start": 1687582800000000000,
+      "validation_end": 1688619600000000000
+    },
+    {
+      "dataset": "Chicago",
+      "fold": 4,
+      "train_start": 1662385200000000000,
+      "train_end": 1688619600000000000,
+      "validation_start": 1688619600000000000,
+      "validation_end": 1689706800000000000
+    },
+    {
+      "dataset": "City-M",
+      "fold": 1,
+      "train_start": 1719792000000000000,
+      "train_end": 1726444800000000000,
+      "validation_start": 1726444800000000000,
+      "validation_end": 1727049600000000000
+    },
+    {
+      "dataset": "City-M",
+      "fold": 2,
+      "train_start": 1719792000000000000,
+      "train_end": 1727049600000000000,
+      "validation_start": 1727049600000000000,
+      "validation_end": 1727654400000000000
+    },
+    {
+      "dataset": "City-M",
+      "fold": 3,
+      "train_start": 1719792000000000000,
+      "train_end": 1727654400000000000,
+      "validation_start": 1727654400000000000,
+      "validation_end": 1728259200000000000
+    },
+    {
+      "dataset": "City-M",
+      "fold": 4,
+      "train_start": 1719792000000000000,
+      "train_end": 1728259200000000000,
+      "validation_start": 1728259200000000000,
+      "validation_end": 1728864000000000000
+    }
+  ],
+  "training_origins": {
+    "Chicago": 336,
+    "City_M": 168
+  },
+  "burnin_days": 2,
+  "tree": {
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "thread_count": 4,
+    "task_type": "CPU",
+    "loss_function": "Logloss",
+    "bootstrap_type": "No",
+    "random_strength": 0,
+    "l2_leaf_reg": 3,
+    "border_count": 254,
+    "random_seed": 20260909,
+    "allow_writing_files": false,
+    "verbose": false,
+    "class_weights": [
+      1.0,
+      1.0
+    ]
+  },
+  "external": {
+    "start": "2026-01-01",
+    "end": "2026-04-01",
+    "timezone": "America/Chicago",
+    "fold": 4,
+    "interpretation": "RETROSPECTIVE_TEMPORAL_TRANSPORTABILITY",
+    "calibration": "UNCALIBRATED",
+    "cutoffs": [
+      0.18280112743377686,
+      0.18313249945640564,
+      0.1807355433702469,
+      0.14239907264709473,
+      0.14016488194465637,
+      0.1285165399312973
+    ]
+  },
+  "paths": {
+    "raw": "data/raw",
+    "processed": "data/processed",
+    "work": "artifacts/reproduced",
+    "tables": "artifacts/verified_tables"
+  }
+}
