@@ -1,0 +1,33 @@
+{
+  "bootstrap": {
+    "unit": "America/Chicago calendar day",
+    "replicates": 1000,
+    "seed": 20260922,
+    "interval": "percentile 2.5/97.5",
+    "all_observations_within_sampled_day": true,
+    "same_day_draws_for_all_endpoints": true,
+    "degenerate_replicates": "No resampling retry; undefined AP excluded from percentile with count reported"
+  },
+  "development": {
+    "30": {
+      "AP": 0.35207,
+      "F1": 0.375267,
+      "AP_floor": 0.2640525,
+      "F1_floor": 0.2626869
+    },
+    "60": {
+      "AP": 0.343131,
+      "F1": 0.370894,
+      "AP_floor": 0.25734825,
+      "F1_floor": 0.2596258
+    }
+  },
+  "transported": "AP>prevalence AND lower95(AP-prevalence)>0 AND AP>=floor AND F1>=floor",
+  "weak": "AP>prevalence AND lower95(AP-prevalence)>0 AND at least one retention floor fails",
+  "no": "Otherwise: AP not demonstrably above prevalence",
+  "operational_readiness": "NO",
+  "bootstrap_comparison": "External uncertainty and difference from fixed examined development reference; does not include development selection uncertainty",
+  "precision_recall_zero_denominator": 0,
+  "transition_zero_denominator": "missing",
+  "calibration_diagnostic": "Brier and 15 equal-width ECE/reliability bins only; never select or fit calibration"
+}

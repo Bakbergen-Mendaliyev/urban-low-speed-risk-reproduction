@@ -74,6 +74,18 @@ Quick checks require roughly a few hundred MB of RAM and no GPU. Allow at least 
 
 Source timestamps are nominal retrospective timestamps, not measured publication availability. Missing outcomes are excluded on the original horizon-specific support. There is no deployment claim, causal congestion attribution, complete verified Chicago geometry or cross-city pooled metric. Frozen tables are the authoritative reported results until the opt-in reconstruction is independently run and compared. See `data/checksums/provenance.json` for original internal source identities, retained only for provenance.
 
+## Figure sources for the current manuscript
+
+Figures 5, 6, 8 and 9 of the current manuscript are drawn from `fig05_*`, `fig06_*`, `fig08_pr_curve_points.csv` and `fig09_reliability_bins.csv` in `artifacts/verified_tables/figure_sources/`, together with the existing `f4_ablation.csv`, `f4_direct.csv` and `city_fold_results.csv`. Figure 11 uses `chicago_burden.csv` and `chicago_priority_roads.csv`. `manuscript_figure_values.json` lists the fold means, AP/prevalence ratios and Spearman rank correlations quoted in the text; each is computed from these tables without new model output. Supplementary Tables S1-S38 are `artifacts/verified_tables/manuscript/supp_01.csv` to `supp_38.csv`.
+
+## Frozen 2026 evaluation protocol
+
+`protocol/2026_evaluation/` holds the decision rules, warning cutoffs, calibration policy, model contract and the SHA-256 seal written before any 2026 outcome was read, plus the start and completion records of the single evaluation run. See the README in that folder.
+
+## License and citation
+
+The code and the result tables in this repository are released under the MIT License (`LICENSE`). The Chicago and City-M source data are not covered by this license and remain under their providers' terms. Citation metadata are in `CITATION.cff`.
+
 ## Layout
 
 ```text
@@ -87,6 +99,7 @@ scripts/reproduce.py     Single entry point
 tests/                   Unit, integrity, portability and safety checks
 data/checksums/          Source hashes, fixed cohorts/origins, release manifest
 artifacts/verified_tables/ Frozen tables, display sources, processed feature fixture
+protocol/2026_evaluation/  Frozen 2026 decision rules, cutoffs and seal
 ```
 
 Raw inputs go to `data/raw/`, processed panels to `data/processed/`, and newly reproduced outputs to `artifacts/reproduced/`. All are ignored by Git. The small optional neural reference module requires `requirements-models.txt`; it is not used by the selected CatBoost entry point.

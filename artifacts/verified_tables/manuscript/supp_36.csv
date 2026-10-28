@@ -1,0 +1,7 @@
+Period/reference,Min,AP,Prev.,ROC-AUC,AP - prev.,AP/prev.
+Historical equal-fold,30,0.3521,0.1485,0.7174,0.2036,2.3713
+Historical fold 4,30,0.3447,0.1457,0.7162,0.1991,2.3665
+Chicago 2026,30,0.3847,0.1756,0.7202,0.2091,2.1905
+Historical equal-fold,60,0.3431,0.1485,0.7132,0.1946,2.3104
+Historical fold 4,60,0.3366,0.1458,0.7119,0.1908,2.3085
+Chicago 2026,60,0.3767,0.1756,0.7152,0.2011,2.1449

@@ -1,0 +1,33 @@
+Formulation,Fold,"AP, +30 min","AP, +60 min"
+Direct CatBoost,1,0.362689,0.355521
+Direct CatBoost,2,0.352556,0.342817
+Direct CatBoost,3,0.348295,0.337582
+Direct CatBoost,4,0.344739,0.336603
+Neural multitask,1,0.318261,0.282642
+Neural multitask,2,0.303569,0.305286
+Neural multitask,3,0.311525,0.300477
+Neural multitask,4,0.307151,0.292837
+Q10 quantile,1,0.329151,0.317591
+Q10 quantile,2,0.313210,0.307625
+Q10 quantile,3,0.315003,0.305224
+Q10 quantile,4,0.311061,0.301184
+CatBoost speed ranking,1,0.324277,0.301509
+CatBoost speed ranking,2,0.306973,0.299932
+CatBoost speed ranking,3,0.309986,0.298612
+CatBoost speed ranking,4,0.294546,0.287510
+Historical propensity,1,0.304159,0.287581
+Historical propensity,2,0.302428,0.288009
+Historical propensity,3,0.282243,0.272901
+Historical propensity,4,0.295658,0.283427
+Direct XGBoost,1,0.362180,0.352459
+Direct XGBoost,2,0.351206,0.342965
+Direct XGBoost,3,0.346390,0.335257
+Direct XGBoost,4,0.343897,0.335145
+Direct LightGBM,1,0.361363,0.352308
+Direct LightGBM,2,0.350276,0.342414
+Direct LightGBM,3,0.345205,0.333087
+Direct LightGBM,4,0.342408,0.334725
+Q25 quantile,1,0.340077,0.332017
+Q25 quantile,2,0.326240,0.320146
+Q25 quantile,3,0.327445,0.320762
+Q25 quantile,4,0.326276,0.315811

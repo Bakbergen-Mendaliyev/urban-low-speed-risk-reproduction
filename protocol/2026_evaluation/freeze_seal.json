@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "selected_fold": 4,
+  "heads": 6,
+  "files": {
+    "reports/v12_2i_external_temporal_transportability/V12_2I_FROZEN_CALIBRATION.csv": "de55c07064478f3068c6811fb2ce76df43cf0742a8bb1fb219e7afc2d3d3730c",
+    "reports/v12_2i_external_temporal_transportability/V12_2I_FROZEN_EXTERNAL_DECISION_RULES.json": "4d9e03d9188874379c266c8870e2193bc74f18972c74c8eb6193337f382ca765",
+    "reports/v12_2i_external_temporal_transportability/V12_2I_FROZEN_MODEL_CONTRACT.json": "a99ec098c15913a94ca8ca1c2254d9aa971b4226cb1de2ff5807ada1e100f5da",
+    "reports/v12_2i_external_temporal_transportability/V12_2I_FROZEN_OPERATING_POINTS.csv": "a91673c485e85e4fa1196e08dde889376287192a2a6d0e4e2c03dc623b767cc3",
+    "reports/v12_2i_external_temporal_transportability/V12_2I_SELECTED_ARTIFACT_HASHES.csv": "656037e8f96c9324e8087302600263211a3655d062e6a48510169308a9245f28"
+  },
+  "external_outcome_reads": 0,
+  "utc": "2026-09-21T19:32:55.134068+00:00"
+}

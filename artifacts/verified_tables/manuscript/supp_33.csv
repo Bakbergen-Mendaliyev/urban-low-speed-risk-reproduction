@@ -1,0 +1,11 @@
+Min,ID,Street / direction,From,To,Selected / eligible,Low-state burden
+30,498,Archer EB,Kostner,Pulaski,"11,313 / 11,913",0.5658
+30,860,Higgins NW,Milwaukee,Central,"11,310 / 11,508",0.7939
+30,518,Archer WB,Damen,Western,"8,060 / 11,618",0.3663
+30,228,Roosevelt EB,Clark,Lake Shore Dr,"7,957 / 10,542",0.4895
+30,383,Western SB,47th,51st,"7,575 / 10,645",0.5819
+60,498,Archer EB,Kostner,Pulaski,"11,691 / 11,914",0.5657
+60,860,Higgins NW,Milwaukee,Central,"11,466 / 11,509",0.7939
+60,518,Archer WB,Damen,Western,"9,144 / 11,619",0.3663
+60,228,Roosevelt EB,Clark,Lake Shore Dr,"8,124 / 10,542",0.4896
+60,560,Cermak WB,Michigan,State,"7,591 / 8,702",0.5624

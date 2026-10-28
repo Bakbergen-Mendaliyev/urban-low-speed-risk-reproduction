@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or the frozen result tables, please cite them as below."
+title: "Future Low-Speed State Prediction and Risk Prioritization in Urban Road Networks: reproduction code and frozen evidence"
+type: software
+version: 1.1.0
+date-released: 2026-10-28
+license: MIT
+repository-code: "https://github.com/Bakbergen-Mendaliyev/urban-low-speed-risk-reproduction"
+authors:
+  - family-names: Mendaliyev
+    given-names: Bakbergen
+    affiliation: "Astana IT University"
+    orcid: "https://orcid.org/0009-0003-5529-3322"
+  - family-names: Shalakhmetov
+    given-names: Aidarbek
+    affiliation: "Astana IT University"
+    orcid: "https://orcid.org/0009-0001-6779-770X"
+  - family-names: Yedilkhan
+    given-names: Didar
+    affiliation: "Astana IT University"
+    orcid: "https://orcid.org/0000-0002-6343-5277"

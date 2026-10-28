@@ -1,10 +1,10 @@
 Component,Definition
 Reference,Training-fold observed-speed linear q85
-Targets,"Future r < 0.70, sensitivity r < 0.60"
+Targets,"Future r < 0.70, with r < 0.60 as an additional definition"
 Horizons,"10, 30, 60 min with exact future timestamps"
 A,"Identity, supported calendar expectation and support"
 B,"A + own 24-h ratios, masks, age and previous-day context"
 C,"B + residuals, trends and recent dispersion"
-D,C + prefix low-state propensity and support
+D,C + low-state propensity from earlier dates and its support
 E,D + same-street measured context
 F,E + training-derived predictive-neighbor context

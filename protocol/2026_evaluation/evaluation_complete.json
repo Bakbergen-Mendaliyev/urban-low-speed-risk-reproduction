@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-21T19:36:21.280548+00:00",
+  "inference_passes": 1,
+  "fit_calls": 0,
+  "origins": 12945,
+  "segments": 1035,
+  "source_hashes": {
+    "artifacts/v10_2_retrospective_persistent_congestion/chicago_external/nominal_ns.npy": "ded98acbcc1250bf4d6ea4fa508018a8a8f14b4f007ea6f9d7b28d746a9c5db4",
+    "artifacts/v10_2_retrospective_persistent_congestion/chicago_external/segment_ids.npy": "3dea0f3bc03733a97efd7da9c88d73710f121b2b3faf75460b8e1b63fccc391f",
+    "artifacts/v10_2_retrospective_persistent_congestion/chicago_external/speed.npy": "9906caaac97940ace17dfa84f242931e05dc9a1f1ffe5bfc22fb9c6f0e455705",
+    "artifacts/v10_2_retrospective_persistent_congestion/chicago_external/timestamps_ns.npy": "97db945695c8b3828231ae90f8ddc66e4917e705bff4c742ce87794e47ad414e",
+    "artifacts/v10_2_retrospective_persistent_congestion/chicago_external/metadata.json": "126988b0b3516cdc4736af13c753d12515d521f05c3734b0755c439d2efc3ff2"
+  },
+  "outputs": {
+    "artifacts\\v12_2i_external_temporal_transportability\\current_ratio.npy": "2bbbd93a156036405fe2faa3022603a1ddbe49c69a6f836287c3f4af97b36c08",
+    "artifacts\\v12_2i_external_temporal_transportability\\expected_speed.npy": "f157be568b6d3df27615f802fad864d51486039417e361d97523d584c51678b8",
+    "artifacts\\v12_2i_external_temporal_transportability\\future_ratio.npy": "846702d90ec0c7fbcf1c7e65c61ae39cc4dc2b6790e5bfbac9dd85b16ae14494",
+    "artifacts\\v12_2i_external_temporal_transportability\\missingness.npy": "8059f4134ec39300e9d46346a84ed8a9071509b0bb2fbbe138a4b5720b16b60a",
+    "artifacts\\v12_2i_external_temporal_transportability\\origin_ns.npy": "be7e88dbd6fcccc7c7bd4be9bc66a0a9b6bfb27fb2b8df56db62c923c931d306",
+    "artifacts\\v12_2i_external_temporal_transportability\\propensity.npy": "c64ba1e7491b43928655d5edfe958c7adc75ded158a404d63f9a228d00910c96",
+    "artifacts\\v12_2i_external_temporal_transportability\\segment_ids.npy": "f18f2364e42cc651eb6bc5cda74992278c58260bad6530fa201149a86d3833f8",
+    "artifacts\\predictions\\v12_2i_external_temporal_transportability\\risk_scores.npy": "38eedb994ea21aed60649401c2fcaab108697f7a29118da6764e84f8c6ff57f1"
+  },
+  "freeze_sha256": "30f7993e168feda19c72e82bce204f7089e270e0765b0cb06c53988d54884bd8"
+}

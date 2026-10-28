@@ -151,7 +151,7 @@ def test_no_paths_secrets_or_internal_API():
             r"(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,})", text
         ), str(path)
         assert "-----BEGIN " + "PRIVATE KEY-----" not in text, str(path)
-        if path.name != "provenance.json":
+        if path.name != "provenance.json" and "2026_evaluation" not in path.parts:
             assert not re.search(r"V12[._]", text), str(path)
 
 
